@@ -11,6 +11,12 @@ module NavigationHelpers
     when /^the home\s?page$/
       '/'
 
+    when /^the questions page$/
+      '/rostra/questions'
+
+    when /^the new question page$/
+      '/rostra/questions/new'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
