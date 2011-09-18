@@ -1,0 +1,435 @@
+
+
+Started GET "/questions" for 127.0.0.1 at 2011-09-18 12:47:40 -0500
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:48:19 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (15.4ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:49:28 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (14.5ms)
+Completed 200 OK in 60ms (Views: 58.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 12:49:28 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (8.6ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (19.9ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:50:19 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (14.4ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 12:50:19 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (8.9ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (20.7ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:54:28 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (15.0ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 12:54:29 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (8.6ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (19.9ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:54:43 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (14.4ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 12:54:44 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (9.1ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (20.6ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:56:00 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (14.8ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 12:56:01 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+ERROR: compiling ___sers_coryschires__esktop_work_applications_rostra_app_views_rostra_questions__form_html_erb___2000873907424903263_2177448660 RAISED /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb:23: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+....submit, "Post your question" );@output_buffer.safe_concat('
+...                               ^
+/Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def ___sers_coryschires__esktop_work_applications_rostra_app_views_rostra_questions__form_html_erb___2000873907424903263_2177448660(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "rostra/questions/_form";_old_output_buffer = @output_buffer;form = local_assigns[:form];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_for(@question) do |f| @output_buffer.safe_concat('
+');   if @question.errors.any? 
+@output_buffer.safe_concat('    <div id="error_explanation">
+      <h2>');@output_buffer.append= ( pluralize(@question.errors.count, "error") );@output_buffer.safe_concat(' prohibited this question from being saved:</h2>
+
+      <ul>
+');       @question.errors.full_messages.each do |msg| 
+@output_buffer.safe_concat('        <li>');@output_buffer.append= ( msg );@output_buffer.safe_concat('</li>
+');       end 
+@output_buffer.safe_concat('      </ul>
+    </div>
+');   end 
+@output_buffer.safe_concat('
+  <div class="field">
+    ');@output_buffer.append= ( f.label :title );@output_buffer.safe_concat('<br />
+    ');@output_buffer.append= ( f.text_field :title );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </div>
+  <div class="field">
+    ');@output_buffer.append= ( f.label :details );@output_buffer.safe_concat('<br />
+    ');@output_buffer.append= ( f.text_area :details );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </div>
+  <div class="actions">
+    ');@output_buffer.append= ( f.submit, "Post your question" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </div>
+'); end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/partial_renderer.rb:256:in `render_partial'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/partial_renderer.rb:228:in `block (2 levels) in render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/partial_renderer.rb:227:in `block in render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/partial_renderer.rb:219:in `render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb:3:in `___sers_coryschires__esktop_work_applications_rostra_app_views_rostra_questions_new_html_erb___746841748741969813_2177779500'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/template.rb:144:in `block in render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/coryschires/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:407:in `_run__2422174170285229100__process_action__1507142452453179574__callbacks'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/railties-3.1.0/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/prefix.rb:26:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-rails-1.0.5/lib/cucumber/rails/action_controller.rb:10:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/urlmap.rb:52:in `block in call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/urlmap.rb:46:in `each'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-1.3.3/lib/rack/urlmap.rb:46:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-test-0.6.1/lib/rack/mock_session.rb:30:in `request'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-test-0.6.1/lib/rack/test.rb:219:in `process_request'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/rack-test-0.6.1/lib/rack/test.rb:57:in `get'
+/Users/coryschires/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/capybara-1.1.1/lib/capybara/rack_test/browser.rb:62:in `process'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/capybara-1.1.1/lib/capybara/rack_test/browser.rb:33:in `follow'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/capybara-1.1.1/lib/capybara/rack_test/node.rb:56:in `click'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-rails-1.0.5/lib/cucumber/rails/capybara/javascript_emulation.rb:16:in `click_with_javascript_emulation'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/capybara-1.1.1/lib/capybara/node/element.rb:99:in `block in click'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/capybara-1.1.1/lib/capybara/node/base.rb:46:in `wait_until'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/capybara-1.1.1/lib/capybara/node/element.rb:99:in `click'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/capybara-1.1.1/lib/capybara/node/actions.rb:27:in `click_link'
+(eval):2:in `click_link'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/capybara-1.1.1/lib/capybara/dsl.rb:161:in `click_link'
+/Users/coryschires/Desktop/work/applications/rostra/features/step_definitions/web_steps.rb:57:in `block in <top (required)>'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/core_ext/instance_exec.rb:48:in `instance_exec'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/core_ext/instance_exec.rb:48:in `block in cucumber_instance_exec'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/core_ext/instance_exec.rb:69:in `cucumber_run_with_backtrace_filtering'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/core_ext/instance_exec.rb:36:in `cucumber_instance_exec'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/rb_support/rb_step_definition.rb:62:in `invoke'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/step_match.rb:25:in `invoke'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/step_invocation.rb:59:in `invoke'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/step_invocation.rb:38:in `accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:99:in `block in visit_step'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:163:in `broadcast'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:98:in `visit_step'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/step_collection.rb:15:in `block in accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/step_collection.rb:14:in `each'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/step_collection.rb:14:in `accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:93:in `block in visit_steps'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:163:in `broadcast'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:92:in `visit_steps'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/scenario.rb:55:in `block (2 levels) in accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime.rb:79:in `block (2 levels) in with_hooks'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime.rb:95:in `before_and_after'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime.rb:78:in `block in with_hooks'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime/support_code.rb:120:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime/support_code.rb:120:in `block (3 levels) in around'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/language_support/language_methods.rb:13:in `block in around'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/language_support/language_methods.rb:95:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/language_support/language_methods.rb:95:in `execute_around'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/language_support/language_methods.rb:12:in `around'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime/support_code.rb:119:in `block (2 levels) in around'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime/support_code.rb:117:in `call'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime/support_code.rb:117:in `around'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime.rb:90:in `around'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime.rb:77:in `with_hooks'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/scenario.rb:53:in `block in accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/scenario.rb:108:in `with_visitor'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/scenario.rb:47:in `accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:51:in `block in visit_feature_element'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:163:in `broadcast'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:50:in `visit_feature_element'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/feature.rb:43:in `block in accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/feature.rb:42:in `each'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/feature.rb:42:in `accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:20:in `block in visit_feature'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:163:in `broadcast'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:19:in `visit_feature'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/features.rb:29:in `block in accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/features.rb:17:in `each'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/features.rb:17:in `each'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/features.rb:28:in `accept'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:14:in `block in visit_features'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:163:in `broadcast'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/ast/tree_walker.rb:13:in `visit_features'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/runtime.rb:45:in `run!'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/cli/main.rb:43:in `execute!'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/lib/cucumber/cli/main.rb:20:in `execute'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/cucumber-1.0.6/bin/cucumber:14:in `<top (required)>'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/bin/cucumber:19:in `load'
+/Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/bin/cucumber:19:in `<main>'
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (26.3ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (37.1ms)
+Completed 500 Internal Server Error in 39ms
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:56:45 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (14.8ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 12:56:45 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (8.3ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (19.2ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:56:45 -0500
+  Processing by Rostra::QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"How many inches in a foot?", "details"=>""}, "commit"=>"Post your question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (54.1ms)[0m  [1mINSERT INTO "rostra_questions" ("created_at", "details", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 18 Sep 2011 17:56:45 UTC +00:00], ["details", ""], ["title", "How many inches in a foot?"], ["updated_at", Sun, 18 Sep 2011 17:56:45 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/rostra/questions/1
+Completed 302 Found in 58ms
+
+
+Started GET "/rostra/questions/1" for 127.0.0.1 at 2011-09-18 12:56:45 -0500
+  Processing by Rostra::QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" WHERE "rostra_questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/show.html.erb within layouts/rostra/application (2.5ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:57:38 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (15.7ms)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 12:57:38 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (8.7ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (20.3ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:57:38 -0500
+  Processing by Rostra::QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"How many inches in a foot?", "details"=>""}, "commit"=>"Post your question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (55.4ms)[0m  [1mINSERT INTO "rostra_questions" ("created_at", "details", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 18 Sep 2011 17:57:38 UTC +00:00], ["details", ""], ["title", "How many inches in a foot?"], ["updated_at", Sun, 18 Sep 2011 17:57:38 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/rostra/questions
+Completed 302 Found in 59ms
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:57:38 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (2.5ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:57:58 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (14.6ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 12:57:58 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (8.8ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (19.9ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:57:58 -0500
+  Processing by Rostra::QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"How many inches in a foot?", "details"=>""}, "commit"=>"Post your question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (53.7ms)[0m  [1mINSERT INTO "rostra_questions" ("created_at", "details", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 18 Sep 2011 17:57:58 UTC +00:00], ["details", ""], ["title", "How many inches in a foot?"], ["updated_at", Sun, 18 Sep 2011 17:57:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/rostra/questions
+Completed 302 Found in 57ms
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 12:57:58 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (2.4ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 13:00:56 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.2ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (15.0ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-18 13:00:57 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (8.7ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (19.9ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/rostra/questions" for 127.0.0.1 at 2011-09-18 13:00:57 -0500
+  Processing by Rostra::QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"How many inches in a foot?", "details"=>""}, "commit"=>"Post your question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (53.9ms)[0m  [1mINSERT INTO "rostra_questions" ("created_at", "details", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 18 Sep 2011 18:00:57 UTC +00:00], ["details", ""], ["title", "How many inches in a foot?"], ["updated_at", Sun, 18 Sep 2011 18:00:57 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/rostra/questions
+Completed 302 Found in 58ms
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-18 13:00:57 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (2.5ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.1ms)

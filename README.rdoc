@@ -14,5 +14,13 @@ Mount the engine in <tt>config/routes.rb</tt>:
   mount Rostra::Engine => "/rostra"
 
 
+== Running the development tests
+To run the specs:
+  rspec spec
+
+To run the cukes:
+  cucumber features
+
+
 == License
 This project uses MIT-LICENSE.
