@@ -7,15 +7,12 @@ NOTE: Rostra is under heavy development. It's no where near production ready.
 == Installation
 Add the gem to your <tt>Gemfile</tt>:
 
-  ```ruby
-    gem 'rostra'
-  ```
+  gem 'rostra'
 
 Mount the engine in <tt>config/routes.rb</tt>:
 
-  ```ruby
-    mount Rostra::Engine => "/rostra"   # or whatever path makes sense for your app
-  ```
+  mount Rostra::Engine => "/rostra"   # or whatever path makes sense for your app
+
 
 == Running the development tests
 To run the specs:
