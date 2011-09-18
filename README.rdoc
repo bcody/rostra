@@ -1,3 +1,7 @@
 = Rostra
 
-This project rocks and uses MIT-LICENSE.
+Rostra allows you to quickly add a question and answer forum to your application.
+
+
+== License
+This project uses MIT-LICENSE.

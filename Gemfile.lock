@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     rostra (0.0.1)
+      jquery-rails
       rails (~> 3.1.0)
 
 GEM
@@ -42,6 +43,9 @@ GEM
     erubis (2.7.0)
     hike (1.2.1)
     i18n (0.6.0)
+    jquery-rails (1.0.14)
+      railties (~> 3.0)
+      thor (~> 0.14)
     mail (2.3.0)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)

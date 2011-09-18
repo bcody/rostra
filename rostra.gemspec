@@ -7,17 +7,17 @@ require "rostra/version"
 Gem::Specification.new do |s|
   s.name        = "rostra"
   s.version     = Rostra::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Rostra."
-  s.description = "TODO: Description of Rostra."
+  s.authors     = ["Cory Schires"]
+  s.email       = ["coryschires@gmail.com"]
+  s.homepage    = "https://github.com/coryschires/rostra"
+  s.summary     = "Rostra allows you to quickly add a question and answer forum to your application."
+  s.description = "Rostra allows you to quickly add a question and answer forum to your application."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.0"
-  # s.add_dependency "jquery-rails"
+  s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
 end
