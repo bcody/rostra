@@ -2,13 +2,17 @@
 <html>
 <head>
   <title>Rostra</title>
-  <%= stylesheet_link_tag    "rostra/application" %>
+  <%= stylesheet_link_tag "rostra/application" %>
   <%= javascript_include_tag "rostra/application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id="page_wrap">
+    <% flash.each do |name, msg| %>
+      <%= content_tag :div, msg, :id => "flash_#{name}" %>
+    <% end %>
 
-<%= yield %>
-
+    <%= yield %>
+  </div><!--page_wrap-->
 </body>
 </html>

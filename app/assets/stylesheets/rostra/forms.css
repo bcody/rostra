@@ -1,0 +1,43 @@
+form .field label,
+form .fieldWithErrors label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 3px;
+}
+
+form .field input,
+form .fieldWithErrors input {
+  margin-bottom: 15px;
+  padding: 3px;
+  width: 450px;
+}
+
+form .field textarea {
+  width: 450px;
+  height: 300px;
+  padding: 3px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------
+                                    HEADER VALIDATION ERRORS / ERRORS ON BASE
+------------------------------------------------------------------------------------------------------------------*/
+#errorExplanation {
+  padding: 10px;
+  border: 1px solid red;
+  background: #fdd;
+  margin: 10px 0 25px;
+}
+#errorExplanation h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#errorExplanation ul {
+  padding-left: 20px
+}
+#errorExplanation ul li {
+  margin: 5px 0 0 0;
+}
+.fieldWithErrors input {
+  background: #fdd; border: red 1px solid;
+}

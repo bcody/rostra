@@ -306,3 +306,1077 @@ Served asset /rostra/application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-18 12:49:42 -0500
 Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-19 12:25:57 -0500
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-19 12:25:59 -0500
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-09-19 12:26:02 -0500
+
+ActionController::RoutingError (No route matches [GET] "/r"):
+  
+
+Rendered /Users/coryschires/.rvm/gems/ruby-1.9.2-head@rostra/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:26:03 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.6ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (32.0ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:26:03 -0500
+Served asset /rostra/questions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:26:03 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:26:03 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:29:00 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[35mRostra::Question Load (0.1ms)[0m  SELECT "rostra_questions".* FROM "rostra_questions" 
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (4.9ms)
+Compiled rostra/application.css  (1ms)  (pid 93817)
+Compiled rostra/reset.css  (0ms)  (pid 93817)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:29:01 -0500
+Served asset /rostra/reset.css - 200 OK (12ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:29:01 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:29:01 -0500
+Served asset /rostra/application.css - 200 OK (3ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:29:01 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:30:23 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (5.1ms)
+Compiled rostra/application.css  (1ms)  (pid 93817)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:30:23 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:30:23 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:30:23 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:30:23 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:32:41 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[35mRostra::Question Load (0.1ms)[0m  SELECT "rostra_questions".* FROM "rostra_questions" 
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (5.3ms)
+Compiled rostra/application.css  (1ms)  (pid 93817)
+Compiled rostra/typography.css  (0ms)  (pid 93817)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:32:41 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:32:41 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:32:41 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:32:41 -0500
+Served asset /rostra/typography.css - 200 OK (5ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:32:41 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:37:20 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (5.1ms)
+Compiled rostra/application.css  (1ms)  (pid 93817)
+Compiled rostra/buttons.css  (0ms)  (pid 93817)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:20 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:20 -0500
+Served asset /rostra/application.css - 200 OK (3ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:20 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:20 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:20 -0500
+Served asset /rostra/buttons.css - 200 OK (5ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:37:20 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:37:23 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[35mRostra::Question Load (0.1ms)[0m  SELECT "rostra_questions".* FROM "rostra_questions" 
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (4.5ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:23 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:23 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:23 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:37:23 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:23 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:23 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:37:56 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (5.8ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:56 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:56 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:56 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:56 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:37:56 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:37:56 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:39:18 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[35mRostra::Question Load (0.1ms)[0m  SELECT "rostra_questions".* FROM "rostra_questions" 
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (4.7ms)
+Compiled rostra/buttons.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (1ms)  (pid 93817)
+Completed 200 OK in 42ms (Views: 37.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:39:18 -0500
+Served asset /rostra/buttons.css - 200 OK (23ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:39:18 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:39:18 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:39:18 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:39:18 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:39:18 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/rostra" for 127.0.0.1 at 2011-09-19 12:40:09 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (4.7ms)
+Compiled rostra/typography.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (1ms)  (pid 93817)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:09 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:09 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:40:09 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:09 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:09 -0500
+Served asset /rostra/typography.css - 200 OK (4ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:09 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:40:15 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (7.3ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (18.2ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:15 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:15 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:15 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:15 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:40:15 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:40:15 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:41:20 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (6.6ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (7.8ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:20 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:20 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:20 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:20 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:20 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:41:20 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:41:58 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (49.8ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (51.0ms)
+Completed 200 OK in 73ms (Views: 72.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:58 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:58 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:58 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:58 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:41:58 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:41:58 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:45:57 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (7.9ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (22.2ms)
+Compiled rostra/application.css  (44ms)  (pid 93817)
+Compiled rostra/forms.css  (0ms)  (pid 93817)
+Completed 200 OK in 90ms (Views: 88.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:57 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:57 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:57 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:57 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:57 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:45:57 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:57 -0500
+Served asset /rostra/forms.css - 200 OK (6ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:45:59 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (51.8ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (52.6ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:59 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:59 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:59 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:59 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:59 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:45:59 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:45:59 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:46:34 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (13.9ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (14.7ms)
+Compiled rostra/forms.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 73ms (Views: 72.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:46:34 -0500
+Served asset /rostra/application.css - 200 OK (4ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:46:34 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:46:34 -0500
+Served asset /rostra/forms.css - 200 OK (3ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:46:34 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:46:34 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:46:34 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:46:34 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:47:00 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (36.4ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (37.5ms)
+Compiled rostra/forms.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:00 -0500
+Served asset /rostra/forms.css - 200 OK (20ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:00 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:00 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:00 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:00 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:00 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:47:00 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:47:33 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (7.2ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (8.0ms)
+Compiled rostra/forms.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:33 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:33 -0500
+Served asset /rostra/forms.css - 200 OK (5ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:33 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:33 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:33 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:47:33 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:47:33 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:48:24 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (8.9ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (9.7ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:24 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:24 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:24 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:24 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:24 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:48:24 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:24 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:48:38 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (7.0ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (7.8ms)
+Compiled rostra/forms.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:38 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:38 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:38 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:38 -0500
+Served asset /rostra/forms.css - 200 OK (4ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:38 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:48:38 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:48:38 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:50:06 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (6.9ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (7.8ms)
+Compiled rostra/forms.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:06 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:06 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:06 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:06 -0500
+Served asset /rostra/forms.css - 200 OK (3ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:06 -0500
+Served asset /rostra/application.css - 200 OK (33ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:06 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:50:06 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:50:38 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (7.0ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (8.1ms)
+Compiled rostra/forms.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:38 -0500
+Served asset /rostra/application.css - 200 OK (3ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:38 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:38 -0500
+Served asset /rostra/forms.css - 200 OK (3ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:38 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:38 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:50:38 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:50:38 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 12:51:06 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (6.9ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (7.7ms)
+Compiled rostra/forms.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:51:06 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:51:06 -0500
+Served asset /rostra/forms.css - 200 OK (9ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:51:06 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:51:06 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:51:06 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:51:06 -0500
+Served asset /rostra/questions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:51:06 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rostra/questions" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+  Processing by Rostra::QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L8D/ZBQXlohneI/3PESSwAbM9DaGcuuGg+loOnzfsAA=", "question"=>{"title"=>"How long does it take to boil an egg?", "details"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}, "commit"=>"Post your question"}
+  [1m[35mSQL (46.0ms)[0m  INSERT INTO "rostra_questions" ("created_at", "details", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 19 Sep 2011 17:52:08 UTC +00:00], ["details", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."], ["title", "How long does it take to boil an egg?"], ["updated_at", Mon, 19 Sep 2011 17:52:08 UTC +00:00]]
+Redirected to http://localhost:3000/rostra/questions
+Completed 302 Found in 54ms
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (5.2ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:52:08 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-19 12:53:29 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[35mRostra::Question Load (0.1ms)[0m  SELECT "rostra_questions".* FROM "rostra_questions" 
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (35.8ms)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:53:29 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:53:29 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:53:29 -0500
+Served asset /rostra/reset.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:53:29 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:53:29 -0500
+Served asset /rostra/application.css - 200 OK (1ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:53:29 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:53:29 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-19 12:54:47 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (5.5ms)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:54:47 -0500
+Served asset /rostra/application.css - 200 OK (15ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:54:47 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:54:47 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:54:47 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:54:47 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:54:47 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:54:47 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-19 12:55:43 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[35mRostra::Question Load (0.1ms)[0m  SELECT "rostra_questions".* FROM "rostra_questions" 
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (4.9ms)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:55:43 -0500
+Served asset /rostra/application.css - 200 OK (47ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:55:43 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:55:43 -0500
+Served asset /rostra/questions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:55:43 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:55:43 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:55:43 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:55:43 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-19 12:56:47 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (6.5ms)
+Compiled rostra/typography.css  (2ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 67ms (Views: 65.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 12:56:48 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 12:56:48 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 12:56:48 -0500
+Served asset /rostra/typography.css - 200 OK (6ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 12:56:48 -0500
+Served asset /rostra/application.css - 200 OK (5ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 12:56:48 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 12:56:48 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 12:56:48 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-19 13:03:28 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[35mRostra::Question Load (0.1ms)[0m  SELECT "rostra_questions".* FROM "rostra_questions" 
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (4.9ms)
+Compiled rostra/typography.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:28 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:28 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:28 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:28 -0500
+Served asset /rostra/typography.css - 200 OK (3ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:28 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:28 -0500
+Served asset /rostra/application.css - 200 OK (2ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 13:03:28 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-19 13:03:38 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[36mRostra::Question Load (0.1ms)[0m  [1mSELECT "rostra_questions".* FROM "rostra_questions" [0m
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (5.0ms)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:38 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:38 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:38 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:38 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:38 -0500
+Served asset /rostra/application.css - 200 OK (24ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 13:03:38 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 13:03:38 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions" for 127.0.0.1 at 2011-09-19 13:04:05 -0500
+  Processing by Rostra::QuestionsController#index as HTML
+  [1m[35mRostra::Question Load (0.1ms)[0m  SELECT "rostra_questions".* FROM "rostra_questions" 
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/index.html.erb within layouts/rostra/application (5.2ms)
+Compiled rostra/buttons.css  (0ms)  (pid 93817)
+Compiled rostra/application.css  (2ms)  (pid 93817)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:05 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:05 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:05 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:05 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:05 -0500
+Served asset /rostra/buttons.css - 200 OK (6ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:05 -0500
+Served asset /rostra/application.css - 200 OK (4ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 13:04:05 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rostra/questions/new" for 127.0.0.1 at 2011-09-19 13:04:52 -0500
+  Processing by Rostra::QuestionsController#new as HTML
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/_form.html.erb (6.8ms)
+Rendered /Users/coryschires/Desktop/work/applications/rostra/app/views/rostra/questions/new.html.erb within layouts/rostra/application (7.6ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rostra/application.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:52 -0500
+Served asset /rostra/application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/forms.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:52 -0500
+Served asset /rostra/forms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/questions.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:52 -0500
+Served asset /rostra/questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/reset.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:52 -0500
+Served asset /rostra/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/typography.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:52 -0500
+Served asset /rostra/typography.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/application.js?body=1" for 127.0.0.1 at 2011-09-19 13:04:52 -0500
+Served asset /rostra/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rostra/buttons.css?body=1" for 127.0.0.1 at 2011-09-19 13:04:52 -0500
+Served asset /rostra/buttons.css - 304 Not Modified (0ms)
