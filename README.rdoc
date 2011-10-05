@@ -13,6 +13,10 @@ Mount the engine in <tt>config/routes.rb</tt>:
 
   mount Rostra::Engine => "/rostra"   # or whatever path makes sense for your app
 
+Install the necessary migrations:
+
+  rake rostra:install:migrations
+
 
 == Running the development tests
 To run the specs:

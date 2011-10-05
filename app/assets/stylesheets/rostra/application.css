@@ -10,8 +10,23 @@
 .text { line-height: 18px; }
 
 .question {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border-bottom: dashed 1px #E0E0E0;
   width: 500px;
   padding-bottom: 15px;
+}
+.question h3 {
+  margin-bottom: 5px;
+}
+
+.question .tags {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.question .tags a {
+  margin: 0 3px;
+}
+.question .timestamp {
+  color: #ccc;
+  text-align: right;
 }

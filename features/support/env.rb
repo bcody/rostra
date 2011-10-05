@@ -57,3 +57,10 @@ end
 #     DatabaseCleaner.strategy = :transaction
 #   end
 #
+
+require 'factory_girl_rails'
+require File.dirname(__FILE__) + "/../../spec/factories"
+
+
+# Factory.find_definitions
+

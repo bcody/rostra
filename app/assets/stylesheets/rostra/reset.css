@@ -3,7 +3,8 @@ body { font-size: 12px; font-family: Helvetica, Verdana, Arial, sans-serif; colo
 ul { list-style: disc inside; padding-left: 10px; }
 ol { list-style: decimal inside; padding-left: 10px; }
 li { list-style-position: outside;}
-a { outline: none; text-decoration: none; }
+a { outline: none; color: green;}
+a:hover { background-color: green; color: white; text-decoration: none;}
 a img { border: none; background: none; }
 img { vertical-align: middle; }
 table { border-collapse: collapse; }
