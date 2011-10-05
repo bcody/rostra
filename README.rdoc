@@ -1,6 +1,6 @@
 http://coryschires-blog-post-images.s3.amazonaws.com/rostra.png
 
-Rostra allows you to quickly add a question and answer forum to your application. Rostra requires Rails 3.1 and Ruby 1.9.2.
+Rostra allows you to quickly add a question and answer forum to your application. Requires Rails 3.1 and Ruby 1.9.2.
 
 <b>NOTE: Rostra is not production ready.</b>
 
