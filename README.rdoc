@@ -1,8 +1,10 @@
 = Rostra
 
-Rostra allows you to quickly add a question and answer forum to your application. Rostra is a mountable engine. It assumes Rails 3.1 and Ruby 1.9.2.
+http://coryschires-blog-post-images.s3.amazonaws.com/rostra.png
 
-NOTE: Rostra is under heavy development. It's no where near production ready.
+Rostra allows you to quickly add a question and answer forum to your application. Rostra requires Rails 3.1 and Ruby 1.9.2.
+
+NOTE: Rostra is not production ready.
 
 == Installation
 Add the gem to your <tt>Gemfile</tt>:
