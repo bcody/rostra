@@ -18,15 +18,23 @@
 .question h3 {
   margin-bottom: 5px;
 }
+.question cite {
+  display: block;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+.question cite a {
+  font-style: normal;
+  margin-left: 5px;
+}
 
 .question .tags {
-  color: #ccc;
-  margin-bottom: 20px;
+  color: #aaa;
 }
 .question .tags a {
   margin: 0 3px;
 }
 .question .timestamp {
-  color: #ccc;
-  text-align: right;
+  color: #aaa;
+  float: right;
 }

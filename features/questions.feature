@@ -21,3 +21,9 @@ Feature: User asks questions
     And I am on the questions page
     Then I should see "Why is the sky blue?"
     And I should see "Asked by Tom Jones"
+    When I follow "edit"
+    Then I should be on the edit page for "Why is the sky blue?"
+    When I fill in "Details" with "Intelligent design, perhaps?"
+    And I press "Post your question"
+    Then I should be on the details page for "Why is the sky blue?"
+    And I should see "Intelligent design, perhaps?" within the question details

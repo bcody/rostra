@@ -5,7 +5,7 @@ Rostra allows you to quickly add a question and answer forum to your application
 <b>NOTE: Rostra is not production ready.</b>
 
 == Installation
-Add the gem to your <tt>Gemfile</tt>:
+Include the gem to your <tt>Gemfile</tt>:
 
   gem 'rostra'
 

@@ -1,0 +1,13 @@
+.flash {
+  font-size: 12px;
+  padding: 7px 7px 5px 7px;
+  margin: 10px 0 10px;
+}
+#flash_notice {
+  border: 1px solid green;
+  background: #e6ffe6;
+}
+#flash_alert {
+  border: 1px solid red;
+  background: #fdd;
+}

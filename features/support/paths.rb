@@ -17,6 +17,14 @@ module NavigationHelpers
     when /^the new question page$/
       '/rostra/questions/new'
 
+    when /^the edit page for "([^"]*)"$/
+      question = Rostra::Question.find_by_title($1)
+      "/rostra/questions/#{question.id}/edit"
+
+    when /^the details page for "([^"]*)"$/
+      question = Rostra::Question.find_by_title($1)
+      "/rostra/questions/#{question.id}"
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

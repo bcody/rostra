@@ -6,7 +6,7 @@ Factory.define :user do |f|
 end
 
 Factory.define :question, :class => Rostra::Question do |f|
-  f.title "Why is the sky blue?"
+  f.sequence(:title) { |n| "Why is the sky blue? #{n}" }
   f.details "Maybe it's because of oxygen"
   f.tag_list "red, green, yellow"
   f.association :user
