@@ -2,6 +2,11 @@
 TODO.rdoc
 log/*.log
 pkg/
-test/dummy/db/*.sqlite3
-test/dummy/log/*.log
+
+
+
+spec/dummy/db/development.sqlite3
+spec/dummy/log/
 spec/dummy/tmp/*
+spec/dummy/tmp/cache/
+spec/dummy/tmp/cache/assets/

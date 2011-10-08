@@ -102,14 +102,12 @@ form#new_rostra_answer {
   border-top: 2px solid #ccc;
   margin-top: 50px;
 }
-
 form#new_rostra_answer .field label {
   font-size: 16px;
 }
 form#new_rostra_answer .field label abbr {
   display: none;
 }
-
 form#new_rostra_answer .field textarea {
   height: 150px;
   width: 100%;
