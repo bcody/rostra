@@ -19,6 +19,7 @@ input[type="submit"] {
   text-align: center;
   text-shadow: 0 1px 0 #eee;
   text-decoration: none !important;
+  width: auto;
 }
 
 .button:hover,

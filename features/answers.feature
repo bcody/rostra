@@ -23,3 +23,17 @@ Feature: User answers a question
     And I should see "Login to answer this question"
     When I follow "Login to answer this question"
     Then I should be on the login page
+
+  Scenario: User edits their question
+    Given I am new user named "John Swift" and have logged in
+    And I have answered "The atmosphere, duh"
+    And I am on the details page for "Why is the sky blue?"
+    When I follow "edit" within the answers section
+    Then I should be on the edit answer page
+    When I fill in "Answer this question" with "Light refraction, of course"
+    And I press "Update"
+    Then I should be on the details page for "Why is the sky blue?"
+    And I should see "Light refraction, of course" within the answers section
+    And I should not see "The atmosphere, duh" within the answers section
+
+

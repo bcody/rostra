@@ -11,6 +11,17 @@ module Rostra
       end
     end
 
+    def edit
+    end
+
+    def update
+      if @answer.update_attributes(params[:answer])
+        redirect_to question_path(@question, anchor: "rostra_answer_#{@answer.id}")
+      else
+        render :edit
+      end
+    end
+
     private
 
     def fetch_question

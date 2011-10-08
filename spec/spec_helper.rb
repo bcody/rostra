@@ -26,22 +26,3 @@ RSpec.configure do |config|
   end
 
 end
-
-# Always clean the database after running describe/context blocks to ensure a
-# consistent state. This is especially important when using the <tt>rspec-set</tt>
-# method. This method creates setup object once -- and only once -- proir to
-# running an entire describe/context block. In this way, it's similar to using
-# <tt>before(:all)</tt> except that <tt>set</tt> is better because:
-#
-#   * It automatically reloads the object before each example, making it much
-#     safer than before(:all) which can cause bugs if you're not careful.
-#   * It's lazily evaluated.
-#
-# You can read more at:
-#
-#   * eggsonbread.com/2010/05/25/speed-up-your-specs-with-set/
-#   * github.com/pcreux/rspec-set
-#
-# Note: This is not part of default configuration. Be sure to retain this snippet
-# when upgrading.
-#

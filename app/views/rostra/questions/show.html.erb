@@ -1,6 +1,6 @@
 <h1><%= @question.title %></h1>
 
-<%= render 'sidebar' %>
+<%= render 'rostra/shared/sidebar' %>
 
 <div id="page_content">
 
@@ -11,7 +11,7 @@
       <%= link_to 'edit', edit_question_path(@question) if can? :manage, @question %>
     </cite>
     <div class="text"><%= simple_format(@question.details) %></div>
-    <div class="timestamp"><%= time_ago_in_words(@question.created_at) %> ago</div>
+    <div class="timestamp"><%= time_ago_in_words(@question.updated_at) %> ago</div>
     <div class="tags">
       Tags:
       <% @question.tags.each do |tag| %>
@@ -25,20 +25,19 @@
     <div id="answers">
       <% @answers.each do |answer| %>
         <div class="answer" id="<%= dom_id(answer) %>">
-          <cite><%= answer.user.name %> says:</cite>
+          <cite>
+            <%= answer.user.name %> says:
+            <%= link_to('edit', edit_question_answer_path(@question, answer)) if can? :manage, answer %>
+          </cite>
           <div class="text"><%= simple_format(answer.text) %></div>
+          <div class="timestamp"><%= time_ago_in_words(answer.updated_at) %> ago</div>
         </div>
       <% end %>
     </div>
   <% end %>
 
   <% if user_signed_in? %>
-    <%= simple_form_for [@question, @question.answers.build], validate: true do |f| %>
-      <%= f.hidden_field :user_id, value: current_user.id %>
-      <%= f.hidden_field :question_id, value: @question.id %>
-      <%= f.input :text, label: 'Answer this question' %>
-      <%= f.submit 'Answer' %>
-    <% end %>
+    <%= render 'rostra/answers/form' %>
   <% else %>
     <%= link_to "Login to answer this question", main_app.new_user_session_path %>
   <% end %>

@@ -7,3 +7,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require rails.validations
+//= require rostra/jquery.jeditable
+
+$(document).ready(function() {
+
+  // $('.editable').editable($('.editable').attr('data-ajax_url'), {
+  //   type: 'textarea',
+  //   cancel: 'Cancel',
+  //   submit: 'Update',
+  //   method: 'PUT'
+  // });
+
+});

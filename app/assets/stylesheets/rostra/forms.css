@@ -10,33 +10,31 @@ form label abbr {
 }
 form .field {
   position: relative;
-  width: 450px;
+  width: 550px;
 }
-form .field label,
-form .fieldWithErrors label {
+form label {
   font-weight: bold;
   display: block;
   margin-bottom: 3px;
 }
-form .field input,
-form .fieldWithErrors input,
-form .field textarea {
+form input,
+form textarea {
   margin-bottom: 15px;
   padding: 3px;
   width: 100%;
 }
-form .field textarea {
+textarea {
+  line-height: 18px;
   height: 300px;
 }
 span.error {
   color: red;
-/*  margin-left: 10px;*/
   position: absolute;
   top: 5px;
   right: -5px;
 }
-.field.field_with_errors input,
-.field.field_with_errors textarea {
+.field_with_errors input,
+.field_with_errors textarea {
   background: #fde6e4;
   border: 1px solid red;
 }

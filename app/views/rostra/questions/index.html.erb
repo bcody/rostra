@@ -1,6 +1,6 @@
 <h1>Recent Questions</h1>
 
-<%= render 'sidebar' %>
+<%= render 'rostra/shared/sidebar' %>
 
 <div id="page_content">
     <div id="questions">
@@ -16,8 +16,18 @@
               Asked by <%= question.user.name %>
               <%= link_to 'edit', edit_question_path(question) if can? :manage, question %>
             </cite>
-            <div class="text"><%= simple_format(question.details) %></div>
-            <div class="timestamp"><%= time_ago_in_words(question.created_at) %> ago</div>
+            <div class="text">
+              <% if question.details.length > 250 %>
+                <%= simple_format(
+                  truncate(question.details, length: 250) +
+                  link_to("view more", question, class: "view_more")
+                ) %>
+
+              <% else %>
+                <%= simple_format(question.details) %>
+              <% end %>
+            </div>
+            <div class="timestamp"><%= time_ago_in_words(question.updated_at) %> ago</div>
             <div class="tags">
               Tags:
               <% question.tags.each do |tag| %>

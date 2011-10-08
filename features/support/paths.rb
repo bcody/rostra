@@ -28,6 +28,11 @@ module NavigationHelpers
     when /^the login page$/
       "/users/sign_in"
 
+    when /^the edit answer page$/
+      question = Rostra::Question.last
+      answer = question.answers.first
+      "/rostra/questions/#{question.id}/answers/#{answer.id}/edit"
+
     else
       begin
         page_name =~ /^the (.*) page$/

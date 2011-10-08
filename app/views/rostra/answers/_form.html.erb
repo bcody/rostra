@@ -1,0 +1,8 @@
+<% @answer ||= @question.answers.build  %>
+
+<%= simple_form_for [@question, @answer], validate: true do |f| %>
+  <%= f.hidden_field :user_id, value: current_user.id %>
+  <%= f.hidden_field :question_id, value: @question.id %>
+  <%= f.input :text, label: 'Answer this question' %>
+  <%= f.submit @answer.new_record? ? 'Answer' : 'Update' %>
+<% end %>

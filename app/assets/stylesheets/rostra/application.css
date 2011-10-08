@@ -53,13 +53,19 @@ div#questions {
   font-style: normal;
   margin-left: 5px;
 }
+.question .text {
+  margin-bottom: 25px;
+}
+.question a.view_more {
+  margin-left: 10px;
+}
 .question .tags {
   color: #aaa;
 }
 .question .tags a {
   margin: 0 3px;
 }
-.question .timestamp {
+.timestamp {
   color: #aaa;
   float: right;
 }
@@ -87,9 +93,12 @@ body#questions.show .question {
 #answers .answer:first-child {
   border-top: none;
 }
-
 #answers .answer cite {
-  color: #ccc;
+  color: #aaa;
+}
+#answers .answer cite a {
+  font-style: normal;
+  margin-left: 5px;
 }
 #answers .answer .text {
   margin-top: 10px;

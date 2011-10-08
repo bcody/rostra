@@ -7,14 +7,14 @@ require File.expand_path(File.join(File.dirname(__FILE__), "..", "support", "sel
 #                                                   DEVISE STEPS
 # --------------------------------------------------------------------------------------------------------------
 Given /^I am new user named "([^"]*)" and have logged in$/ do |user_name|
-  user = Factory(:user, :email => 'user@example.com', :password => 'password', :name => user_name)
+  user = Factory(:user, email: 'user@example.com', password: 'password', name: user_name)
   And %{I login as "#{user.email}" with password "#{user.password}"}
 end
 
 When /^I (?:login|log in) as "([^"]*)" with password "([^"]*)"$/ do |email, password|
   visit new_user_session_path
-  fill_in('user_email', :with => email)
-  fill_in('user_password', :with => password)
+  fill_in('user_email', with: email)
+  fill_in('user_password', with: password)
   click_button('Sign in')
 end
 
@@ -34,9 +34,16 @@ Then /^"([^"]*)" should be the first question listed$/ do |question_title|
 end
 
 Given /^(?:I have|someone has) asked the question: "([^"]*)"$/ do |question_title|
-  Factory(:question, :title => question_title, :user => User.last || Factory(:user))
+  Factory(:question, title: question_title, user: User.last || Factory(:user))
 end
 
 Then /^I should not see the answer form$/ do
   page.should_not have_css('#new_rostra_answer')
+end
+
+# --------------------------------------------------------------------------------------------------------------
+#                                                   ANSWER STEPS
+# --------------------------------------------------------------------------------------------------------------
+Given /^I have answered "([^"]*)"$/ do |answer_text|
+  Factory(:answer, text: answer_text, question: Rostra::Question.last, user: User.last)
 end
