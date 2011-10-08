@@ -6,17 +6,43 @@
  *= require_tree .
 */
 
-#page_wrap { width: 970px; margin: auto; }
-.text { line-height: 18px; }
-
+#page_wrap {
+  width: 970px; margin: auto;
+}
+.text {
+  line-height: 18px;
+}
+nav {
+  float: right;
+}
+#page_content {
+  width: 550px;
+  border-right: 1px solid #ccc;
+  padding-right: 100px;
+}
+#sidebar {
+  float: right;
+  width: 300px;
+  text-align: center;
+}
+div#questions {
+  min-height: 250px;
+}
 .question {
   margin-bottom: 10px;
   border-bottom: dashed 1px #E0E0E0;
-  width: 500px;
   padding-bottom: 15px;
 }
 .question h3 {
   margin-bottom: 5px;
+}
+.question h3 a {
+  color: #333;
+  text-decoration: none;
+}
+.question h3 a:hover {
+  color: green;
+  background: transparent;
 }
 .question cite {
   display: block;
@@ -27,7 +53,6 @@
   font-style: normal;
   margin-left: 5px;
 }
-
 .question .tags {
   color: #aaa;
 }
@@ -37,4 +62,56 @@
 .question .timestamp {
   color: #aaa;
   float: right;
+}
+
+
+/* styles for question on question show page */
+body#questions.show .question {
+  border-bottom: none;
+  margin-bottom: 50px;
+}
+
+
+/* answers section */
+#answer_count{
+  border: 1px dashed #ccc;
+  border-left: none;
+  border-right: none;
+  padding: 4px 0;
+  margin-bottom: 20px;
+}
+#answers .answer {
+  padding: 15px 0;
+  border-top: 1px dashed #ccc;
+}
+#answers .answer:first-child {
+  border-top: none;
+}
+
+#answers .answer cite {
+  color: #ccc;
+}
+#answers .answer .text {
+  margin-top: 10px;
+}
+
+
+/* answer question form */
+form#new_rostra_answer {
+  padding-top: 30px;
+  border-top: 2px solid #ccc;
+  margin-top: 50px;
+}
+
+form#new_rostra_answer .field label {
+  font-size: 16px;
+}
+form#new_rostra_answer .field label abbr {
+  display: none;
+}
+
+form#new_rostra_answer .field textarea {
+  height: 150px;
+  width: 100%;
+  margin: 10px 0;
 }

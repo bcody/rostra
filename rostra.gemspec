@@ -20,6 +20,8 @@ Gem::Specification.new do |s|
   s.add_dependency "jquery-rails", "~> 1.0.14"
   s.add_dependency "acts-as-taggable-on", "~> 2.1.1"
   s.add_dependency "cancan", "~> 1.6.7"
+  s.add_dependency 'simple_form'
+  s.add_dependency 'client_side_validations'
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "cucumber-rails"

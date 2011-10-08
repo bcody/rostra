@@ -11,3 +11,8 @@ Factory.define :question, :class => Rostra::Question do |f|
   f.tag_list "red, green, yellow"
   f.association :user
 end
+
+Factory.define :answer, :class => Rostra::Answer do |f|
+  f.text "It's all about democracy"
+  f.association :user
+end

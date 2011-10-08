@@ -1,17 +1,45 @@
 <h1><%= @question.title %></h1>
 
-<div class="question">
-  <h3 class="title"><%= @question.title %></h3>
-  <cite>
-    Asked by <%= @question.user.name %>
-    <%= link_to 'edit', edit_question_path(@question) if can? :manage, @question %>
-  </cite>
-  <div class="text"><%= simple_format(@question.details) %></div>
-  <div class="timestamp"><%= time_ago_in_words(@question.created_at) %> ago</div>
-  <div class="tags">
-    Tags:
-    <% @question.tags.each do |tag| %>
-      <%= link_to tag, "" %>
-    <% end %>
+<%= render 'sidebar' %>
+
+<div id="page_content">
+
+  <div class="question">
+    <h3 class="title"><%= @question.title %></h3>
+    <cite>
+      Asked by <%= @question.user.name %>
+      <%= link_to 'edit', edit_question_path(@question) if can? :manage, @question %>
+    </cite>
+    <div class="text"><%= simple_format(@question.details) %></div>
+    <div class="timestamp"><%= time_ago_in_words(@question.created_at) %> ago</div>
+    <div class="tags">
+      Tags:
+      <% @question.tags.each do |tag| %>
+        <%= link_to tag, "" %>
+      <% end %>
+    </div>
   </div>
-</div>
+
+  <% unless @answers.empty? %>
+    <h3 id="answer_count"><%= pluralize(@answers.size, 'Answer') %></h3>
+    <div id="answers">
+      <% @answers.each do |answer| %>
+        <div class="answer" id="<%= dom_id(answer) %>">
+          <cite><%= answer.user.name %> says:</cite>
+          <div class="text"><%= simple_format(answer.text) %></div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+
+  <% if user_signed_in? %>
+    <%= simple_form_for [@question, @question.answers.build], validate: true do |f| %>
+      <%= f.hidden_field :user_id, value: current_user.id %>
+      <%= f.hidden_field :question_id, value: @question.id %>
+      <%= f.input :text, label: 'Answer this question' %>
+      <%= f.submit 'Answer' %>
+    <% end %>
+  <% else %>
+    <%= link_to "Login to answer this question", main_app.new_user_session_path %>
+  <% end %>
+</div><!-- page_content -->

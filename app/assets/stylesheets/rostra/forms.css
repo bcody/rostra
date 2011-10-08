@@ -1,43 +1,42 @@
+form .hint {
+  display: block;
+  margin-top: -10px;
+  color: #aaa;
+}
+form label abbr {
+  color: green;
+  font-size: 18px;
+  font-weight: normal;
+}
+form .field {
+  position: relative;
+  width: 450px;
+}
 form .field label,
 form .fieldWithErrors label {
   font-weight: bold;
   display: block;
   margin-bottom: 3px;
 }
-
 form .field input,
 form .fieldWithErrors input,
 form .field textarea {
   margin-bottom: 15px;
   padding: 3px;
-  width: 450px;
+  width: 100%;
 }
-
 form .field textarea {
   height: 300px;
 }
-
-
-/*------------------------------------------------------------------------------------------------------------------
-                                    HEADER VALIDATION ERRORS / ERRORS ON BASE
-------------------------------------------------------------------------------------------------------------------*/
-#error_explanation {
-  padding: 10px;
+span.error {
+  color: red;
+/*  margin-left: 10px;*/
+  position: absolute;
+  top: 5px;
+  right: -5px;
+}
+.field.field_with_errors input,
+.field.field_with_errors textarea {
+  background: #fde6e4;
   border: 1px solid red;
-  background: #fdd;
-  margin: 10px 0 25px;
-}
-#error_explanation h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-#error_explanation ul {
-  padding-left: 20px
-}
-#error_explanation ul li {
-  margin: 5px 0 0 0;
-}
-.field_with_errors input {
-  background: #fdd;
-  border: red 1px solid;
 }

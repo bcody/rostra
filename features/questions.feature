@@ -17,7 +17,7 @@ Feature: User asks questions
 
   Scenario: User edits their question
     Given I am new user named "Tom Jones" and have logged in
-    And I have a asked the question: "Why is the sky blue?"
+    And I have asked the question: "Why is the sky blue?"
     And I am on the questions page
     Then I should see "Why is the sky blue?"
     And I should see "Asked by Tom Jones"

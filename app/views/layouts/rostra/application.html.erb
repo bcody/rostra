@@ -6,13 +6,16 @@
   <%= javascript_include_tag "rostra/application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="<%= controller_name %>" class="<%= action_name %>">
   <div id="page_wrap">
+    <nav>
+      <%= link_to 'Recent questions', questions_path %>
+    </nav>
     <% flash.each do |name, msg| %>
       <%= content_tag :div, msg, id: "flash_#{name}", class: 'flash' %>
     <% end %>
 
     <%= yield %>
-  </div><!--page_wrap-->
+  </div>
 </body>
 </html>

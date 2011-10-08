@@ -7,6 +7,7 @@ module Rostra
     end
 
     def show
+      @answers = @question.answers
     end
 
     def new

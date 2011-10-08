@@ -1,31 +1,7 @@
-<%= form_for(@question) do |f| %>
-  <% if @question.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@question.errors.count, "error") %> prohibited this question from being saved:</h2>
-
-      <ul>
-      <% @question.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <%= f.hidden_field :user_id, :value => current_user.id %>
-
-  <div class="field">
-    <%= f.label :title %>
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :details %>
-    <%= f.text_area :details %>
-  </div>
-  <div class="field">
-    <%= f.label :tag_list, 'Tags' %>
-    <%= f.text_field :tag_list %>
-  </div>
-  <div class="actions">
-    <%= f.submit "Post your question" %>
-  </div>
+<%= simple_form_for @question, validate: true do |f| %>
+  <%= f.hidden_field :user_id, value: current_user.id %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.input :tag_list, label: 'Tags', hint: 'Separate tags with commas' %>
+  <%= f.submit "Post your question" %>
 <% end %>

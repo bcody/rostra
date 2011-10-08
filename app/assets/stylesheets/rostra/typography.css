@@ -1,7 +1,7 @@
 p, li { line-height: 18px; margin: 0 0 10px 0; }
 a, a:visited {  }
 a:hover {  }
-h1 { font-size: 36px; margin: 20px 0 50px; padding-bottom: 5px; border-bottom: 3px #e0e0e0 solid; }
+h1 { font-size: 36px; margin: 20px 0 50px; padding-bottom: 5px; border-bottom: 1px #ccc solid; }
 h3 { font-size: 22px; margin: 0 0 10px 0; }
 
 

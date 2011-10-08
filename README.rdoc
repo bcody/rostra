@@ -16,7 +16,7 @@ Mount the engine in <tt>config/routes.rb</tt>:
 Install the necessary migrations:
 
   rake rostra:install:migrations
-
+  rake db:migrate
 
 == Running the development tests
 To run the specs:

@@ -14,6 +14,15 @@ module HtmlSelectorsHelpers
     when "the question details"
       '.question .text'
 
+    when "the answers section"
+      '#answers .answer'
+
+    when 'the answers count'
+      'h3#answer_count'
+
+    when 'the answers section'
+      '#answers .answer'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

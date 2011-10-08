@@ -25,11 +25,8 @@ module NavigationHelpers
       question = Rostra::Question.find_by_title($1)
       "/rostra/questions/#{question.id}"
 
-    # Add more mappings here.
-    # Here is an example that pulls values out of the Regexp:
-    #
-    #   when /^(.*)'s profile page$/i
-    #     user_profile_path(User.find_by_login($1))
+    when /^the login page$/
+      "/users/sign_in"
 
     else
       begin

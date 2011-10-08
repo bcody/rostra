@@ -9,6 +9,7 @@ module Rostra
 
       if logged_in?
         can :manage, Question, :user => user
+        can :manage, Answer, :user => user
       end
 
       can :read, :all

@@ -1,0 +1,8 @@
+<div id="sidebar">
+  <% if user_signed_in? %>
+    <%= link_to 'Ask a question', new_question_path, class: "button" %>
+  <% else %>
+    <%= link_to 'Login to ask a question', main_app.new_user_session_path, class: "button" %>
+  <% end %>
+</div><!--sidebar-->
+

@@ -18,6 +18,10 @@ When /^I (?:login|log in) as "([^"]*)" with password "([^"]*)"$/ do |email, pass
   click_button('Sign in')
 end
 
+Given /^I am not logged in$/ do
+  # TODO: Clear sesssion. Necessary?
+end
+
 
 # --------------------------------------------------------------------------------------------------------------
 #                                             QUESTION STEPS
@@ -29,6 +33,10 @@ Then /^"([^"]*)" should be the first question listed$/ do |question_title|
   end
 end
 
-Given /^I have a asked the question: "([^"]*)"$/ do |question_title|
-  Factory(:question, :title => question_title, :user => User.last)
+Given /^(?:I have|someone has) asked the question: "([^"]*)"$/ do |question_title|
+  Factory(:question, :title => question_title, :user => User.last || Factory(:user))
+end
+
+Then /^I should not see the answer form$/ do
+  page.should_not have_css('#new_rostra_answer')
 end
